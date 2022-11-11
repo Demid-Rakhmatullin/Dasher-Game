@@ -69,7 +69,6 @@ namespace Player
                 if (hit.collider.CompareTag(TAG_PLAYER))
                 {
                     OnDashingHit?.Invoke(this, hit);
-                    //CmdProcessHit(hit.gameObject.GetComponent<DasherPlayer>());
                 }
                 else
                 {
